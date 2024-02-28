@@ -1,6 +1,6 @@
 [package]
 name = "pwasm-utils"
-version = "0.19.0"
+version = "0.20.0"
 edition = "2021"
 rust-version = "1.56.1"
 authors = ["Nikolay Volf <nikvolf@gmail.com>", "Sergey Pepyakin <s.pepyakin@gmail.com>"]
@@ -49,7 +49,7 @@ required-features = ["cli"]
 [dependencies]
 byteorder = { version = "1", default-features = false }
 log = { version = "0.4", default-features = false }
-parity-wasm = { version = "0.42", default-features = false }
+parity-wasm = { version = "0.45", default-features = false }
 
 # Dependencies only used by the binaries
 clap = { version = "2", optional = true }
